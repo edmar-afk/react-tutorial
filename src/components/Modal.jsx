@@ -1,4 +1,7 @@
-/* eslint-disable react/prop-types */ function Modal(props) {	const { submit, close, productName, category, price, valueName, valuePrice } = props;	return (
+/* eslint-disable react/prop-types */
+function Modal(props) {
+	const { submit, close, productName, price, valueName, valuePrice } = props;
+	return (
 		<>
 			<div
 				onClick={close}
