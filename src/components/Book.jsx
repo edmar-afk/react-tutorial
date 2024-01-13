@@ -1,4 +1,4 @@
-/* eslint-disable react/prop-types */ /* eslint-disable no-unused-vars */
+
 function Book(props) {
 	const { image, title, subTitle, getBook, id, number } = props;
 	const displayTitle = () => {
